@@ -1,41 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Shadowborn</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shadowborn</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;800&display=swap" rel="stylesheet">
 </head>
 <body>
+  <header class="navbar">
+    <a href="index.html" class="logo">Shadowborn</a>
 
-    <header>
-        <h1>🔥 Shadowborn 🔥</h1>
-        <p>Top guild in Shakes & Fidget</p>
-    </header>
-
-    <nav>
-        <a href="#home">Home</a>
-        <a href="#members">Members</a>
-        <a href="#join">Join Us</a>
+    <nav class="nav-links">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#members">Members</a>
+      <a href="#join">Join Us</a>
     </nav>
+  </header>
 
-    <section id="home">
-        <h2>Welcome</h2>
-        <p>We are a competitive guild in Shakes & Fidget. Join us and dominate!</p>
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-overlay"></div>
+
+      <div class="hero-content">
+        <p class="hero-subtitle">Shakes &amp; Fidget Guild</p>
+        <h1 id="hero-title" class="hero-title">Shadowborn</h1>
+        <p class="hero-description">
+          Rising from darkness, bound by loyalty, built for conquest.
+        </p>
+      </div>
     </section>
 
-    <section id="members">
+    <section id="about" class="content-section">
+      <div class="section-box">
+        <h2>About</h2>
+        <p>
+          Shadowborn is a guild forged in the darker corners of Shakes &amp; Fidget.
+          We value loyalty, growth, teamwork, and a strong identity. This website is
+          our home, our banner, and our invitation to those who want to stand with us.
+        </p>
+      </div>
+    </section>
+
+    <section id="members" class="content-section">
+      <div class="section-box">
         <h2>Members</h2>
-        <ul>
-            <li>Player1</li>
-            <li>Player2</li>
-        </ul>
+        <p>
+          This section will later showcase the guild roster, featured players,
+          achievements, and class highlights.
+        </p>
+      </div>
     </section>
 
-    <section id="join">
+    <section id="join" class="content-section">
+      <div class="section-box">
         <h2>Join Us</h2>
-        <p>Contact us on Discord to apply!</p>
+        <p>
+          Ready to become part of Shadowborn? This section can later include your
+          application form, Discord server, or recruitment requirements.
+        </p>
+      </div>
     </section>
+  </main>
 
-    <script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
